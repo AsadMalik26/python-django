@@ -1,0 +1,27 @@
+i learned we need to install django for every project as we create-react-app then npm install to install packages.
+
+
+1. make virtual environment
+$ python -m venv venv
+
+2. activate it
+$ venv\Scripts\activate
+
+3. install django
+$ pip install django
+OR
+$ python -m pip install Django
+
+- both above are same
+- note: step 3 needs internet connecton
+
+4. now you have django-admin utility installed
+//now you can start your project in the named folder (i.e: folder: mysite)
+$ django-admin startproject mysite
+
+Done - ready for project
+
+
+Run project for future:
+- you do not have need to install django again
+- but you have to setup activate virtual enviroment then you can access django-admin
