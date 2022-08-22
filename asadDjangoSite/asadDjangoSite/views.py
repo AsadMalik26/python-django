@@ -20,6 +20,7 @@ def one(request):
 
 
 def removepunc(request):
+    print(request.GET.get('text', 'default text'))
     return HttpResponse("remove punc")
 
 

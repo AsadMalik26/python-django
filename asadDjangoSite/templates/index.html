@@ -14,7 +14,23 @@
     <link rel="stylesheet" href="" />
   </head>
   <body>
-    <h1>This is index file</h1>
+    <h1>Welcoe to my site</h1>
+    <h2>{{name}} is from {{place}}</h2>
+    <form action="/removepunc" method="get">
+      <h2>Enter your input here</h2>
+      <textarea
+        name="text"
+        id="textarea"
+        cols="30"
+        rows="10"
+        data-gramm="false"
+        wt-ignore-input="true"
+        style="width: 590px; height: 67px"
+      >
+textarea</textarea
+      >
+      <button type="submit">analyze text</button>
+    </form>
     <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
